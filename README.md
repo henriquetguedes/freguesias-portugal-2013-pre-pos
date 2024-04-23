@@ -31,7 +31,7 @@ Repositório com a associação entre nomes de antigas e novas freguesias depois
     * existência de freguesia final: todas as freguesias em `total` correspondem a uma freguesia existente em 2013, que pode entretanto ter mudado de nome (cf. Wikipedia, DRE, *site* das juntas de freguesia)
     * consistência de nomes: `nova` ou `territorio` e `total` não podem ser diferentes
     * rastreio de omissão de espaços: para cada nome de freguesia em `total`, as freguesias correspondentes não têm palavras maiores que a freguesia resultante (excepções de nomes não resultantes de agregação excluídas manualmente)
-3. Transformação das colunas `antiga`, `nova` e `territorio` na coluna `tipo_alteração`, consoante o seu preenchimento ou não. Preenchimento da coluna `antiga` para freguesias cujos nome ou limites territoriais não mudaram
+3. Transformação das colunas `antiga`, `nova` e `territorio` na coluna `tipo_alteração`, consoante o seu preenchimento ou não e preenchimento da coluna `antiga` para freguesias cujos nome ou limites territoriais não mudaram, originando [freguesias_pre_pos_2013.csv](./freguesias_pre_pos_2013.csv).
 
 # Aviso
 Não tendo verificado todos os campos manualmente, pode haver erros derivados da extracção ou manipulação dos dado. Por favor, submete um `pull-request` com as correcções que encontrares.
